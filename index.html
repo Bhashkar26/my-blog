@@ -3,23 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <title>EV & Motorcycle Blog</title>
-  <meta name="description" content="Electric vehicles and motorcycle guides">
+  <meta name="description" content="Electric vehicles and motorcycle guides, comparisons and news" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
-    body { font-family: system-ui; max-width: 720px; margin: auto; padding: 20px; line-height: 1.6; }
-    a { color: #2563eb; text-decoration: none; }
-    header { margin-bottom: 2rem; }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .site-title {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .tagline {
+      color: #666;
+      margin-top: 5px;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    .post-card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 6px;
+      margin-bottom: 25px;
+      border: 1px solid #e5e5e5;
+    }
+
+    .post-card h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .post-card a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .post-card a:hover {
+      text-decoration: underline;
+    }
+
+    .post-excerpt {
+      color: #555;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #777;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>⚡ EV & Motorcycle Blog</h1>
-    <p>Guides, comparisons & real-world insights</p>
-  </header>
 
-  <article>
-    <h2><a href="post1.html">Why Electric Motorcycles Are the Future</a></h2>
-    <p>A beginner-friendly look at EV bikes.</p>
+<body>
+
+<header>
+  <div class="container">
+    <h1 class="site-title">EV & Motorcycle Blog</h1>
+    <p class="tagline">Electric vehicle guides, comparisons & insights</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Post 1 -->
+  <article class="post-card">
+    <h2>
+      <a href="why-electric-motorcycles-are-the-future.html">
+        Why Electric Motorcycles Are the Future
+      </a>
+    </h2>
+    <p class="post-excerpt">
+      Electric motorcycles are gaining popularity fast. In this post, we look at
+      why EV bikes make sense in 2026 and beyond.
+    </p>
+    <a class="read-more" href="why-electric-motorcycles-are-the-future.html">
+      Read More →
+    </a>
   </article>
+
+</main>
+
+<footer>
+  © 2026 EV & Motorcycle Blog
+</footer>
+
 </body>
 </html>
